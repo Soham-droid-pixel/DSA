@@ -1,0 +1,22 @@
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled executables
+*.exe
+*.out
+*.app
+
+# Ignore debug / build files
+*.dll
+*.so
+*.dylib
+
+# Ignore VSCode settings (optional, if you don’t want them in git)
+.vscode/
+*.log
+
+# Ignore backup / temp files
+*.tmp
+*.swp
+*~
