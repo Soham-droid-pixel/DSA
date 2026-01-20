@@ -2,5 +2,7 @@
     "files.associations": {
         "iostream": "cpp",
         "vector": "cpp"
-    }
+    },
+    "snyk.advanced.organization": "d987abf2-5bd2-4a31-bbba-0d2e9847d9b3",
+    "snyk.advanced.autoSelectOrganization": true
 }
