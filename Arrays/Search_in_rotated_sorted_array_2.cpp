@@ -70,3 +70,4 @@ public:
         }
     }
 };*/
+/*Answer to the Follow-up QuestionDoes duplicates affect complexity? Yes.How? In the worst case (like [1,1,1,1,1,2,1]), the low++ and high-- check might run for almost every step.Result: The time complexity degrades from $O(\log N)$ to $O(N)$. This makes the worst case for this approach the same as your set approach, but on average, this is much faster!*/
