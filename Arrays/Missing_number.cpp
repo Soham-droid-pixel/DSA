@@ -29,3 +29,16 @@ int main(){
     cout<<missing;
     return 0;
 }
+/*
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+        int n=nums.size();
+        int total=n*(n+1)/2;
+        for(int i=0;i<n;i++){
+           total=total-nums[i];
+        }
+        return total;
+    }
+};
+*/
